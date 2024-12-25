@@ -194,17 +194,13 @@ td {
     color: #b2b2b2;
 }
 
-.samuraimart-star-rating::before {
-    content: "★★★★★";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #b2b2b2;
-}
-
+.samuraimart-star-rating::before,
 .samuraimart-star-rating::after {
     content: "★★★★★";
+}
+
+
+.samuraimart-star-rating::after {
     position: absolute;
     top: 0;
     left: 0;
